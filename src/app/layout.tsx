@@ -4,6 +4,8 @@ import "./globals.css";
 import Providers from "@/components/Providers";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Ticker from "@/components/Ticker";
+
 
 const hind = Hind_Siliguri({
   subsets: ["bengali", "latin"],
@@ -21,6 +23,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body className={`${hind.className} flex min-h-screen flex-col bg-base-200`}>
         <Providers>
           <Navbar />
+          <Ticker />
           <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{children}</main>
           <Footer />
         </Providers>

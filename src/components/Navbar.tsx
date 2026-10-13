@@ -11,6 +11,7 @@ const Navbar = () => {
   const [date, setDate] = useState("");
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setDate(
       new Date().toLocaleDateString("bn-BD", { weekday: "long", day: "numeric", month: "long", year: "numeric" })
     );
