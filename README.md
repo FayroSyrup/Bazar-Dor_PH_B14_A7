@@ -20,7 +20,25 @@
 - My Profile with update information, plus skeleton loaders and a 404 page
 - Fully responsive on mobile, tablet and desktop
 
-## Run locally
+## Run Locally
+
+```bash
+git clone https://github.com/FayroSyrup/Bazar-Dor_PH_B14_A7.git
+cd Bazar-Dor_PH_B14_A7
 npm install
-cp .env.example .env.local   # then fill in the values
+cp .env.example .env.local
+# fill in your values in .env.local
 npm run dev
+```
+
+## API
+
+Base URL: `https://openapi.programming-hero.com/api/bazardor`
+
+| Endpoint | Description |
+|----------|-------------|
+| `/products` | All products |
+| `/products?category=chal` | Filter by category |
+| `/products/1` | Single product |
+| `/categories` | All categories |
+
