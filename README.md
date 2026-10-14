@@ -2,7 +2,8 @@
 
 প্রয়োজনীয় পণ্যের দৈনিক বাজার দর এক নজরে। A responsive market price tracker built for Programming Hero assignment B14-A7.
 
-Live: https://bazar-dor-ph-b14-a7-e2st.vercel.app
+**Live Site:** https://bazar-dor-ph-b14-a7-e2st.vercel.app  
+**GitHub:** https://github.com/FayroSyrup/Bazar-Dor_PH_B14_A7
 
 ## Technologies
 - Next.js (App Router) + TypeScript
